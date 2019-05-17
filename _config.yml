@@ -248,3 +248,4 @@ exclude:
   - rakelib
   - README.md
   - _plugins
+  - guides
