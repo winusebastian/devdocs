@@ -16,7 +16,7 @@ redirect_from:
 
 This topic discusses how to set required [PHP](https://glossary.magento.com/php) options.
 
-{:.bs-callout .bs-callout-info}
+{: .bs-callout-info}
 All third-party libraries now support PHP 7.2.
 If you are interested in participating in Magento Community projects we welcome your help! See our [ZenHub board](https://app.zenhub.com/workspace/o/magento-engcom/php-7.2-support/boards?repos=116423356,116426364,115111902) for a full list of outstanding issues.
 
@@ -24,8 +24,11 @@ If you are interested in participating in Magento Community projects we welcome 
 {% include install/php-versions-template.md %}
 
 Magento 2.2.10 supports PHP 7.1 and 7.2.
-PHP version 7.0 is no longer supported in Magento 2.2.10.
-If you are on PHP 7.0 and plan on upgrading to v2.2.10, you must upgrade PHP to a supported version before upgrading Magento.
+
+{: .bs-callout-warning}
+PHP 7.0 reached [End of Life][] on January 1, 2019.
+While Magento 2.2.10 will install on PHP 7.0, we have not tested it and no fixes will be released for it.
+We recommend updating to a supported version of PHP.
 
 ## Verify PHP is installed {#centos-verify-php}
 
@@ -216,3 +219,4 @@ If you have more than one `opcache.ini`, modify all of them.
 <!-- Link Definitions -->
 
 [additional steps may be required]: https://wiki.centos.org/HowTos/php7
+[End of Life]: https://www.php.net/supported-versions.php
