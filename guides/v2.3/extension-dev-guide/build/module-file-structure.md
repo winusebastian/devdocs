@@ -33,7 +33,7 @@ Additional folders can be added for configuration and other ancillary functions 
 * `Cron`: contains cron job definitions.
 * `CustomerData`: contains section files.
 * `Helper`: contains aggregated functionality.
-* `i18n`: contains localization files.
+* `i18n`: contains internationalization(i18n) files.
 * `Observer`: contains files for executing commands from the listener.
 * `Plugin`: contains any needed [plug-ins]({{ page.baseurl }}/extension-dev-guide/plugins.html).
 * `UI`: contains data generation files.
